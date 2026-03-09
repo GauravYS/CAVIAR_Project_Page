@@ -79,7 +79,7 @@ body {
 }
 
 .link-block a {
-    margin: 8px 4px;
+    margin: 4px 4px;
 }
 
 .dnerf {
@@ -89,6 +89,8 @@ body {
 
 /* Hero Section Modernization */
 .hero {
+  margin-top: 0;
+  padding-top: 1rem;
   position: relative;
   overflow: hidden;
 }
@@ -100,11 +102,12 @@ body {
 }
 
 .hero-body {
-  padding: 4rem 1.5rem;
+  padding: 2rem 1.5rem;
 }
 
 .teaser .hero-body {
-  padding-top: 2rem;
+  margin-top: 0;
+  padding-top: 0rem;
   padding-bottom: 4rem;
 }
 
@@ -121,6 +124,17 @@ body {
     margin-bottom: 2rem !important;
     line-height: 1.1 !important;
 }
+
+.publication-links {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.hero.teaser {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
 
 .publication-banner {
   max-height: 70vh;
@@ -232,6 +246,18 @@ body {
     transform: translateY(-4px);
     box-shadow: var(--shadow-xl);
 }
+
+.accept-badge {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 4px 10px;
+  font-size: 1.5rem;
+  background-color: #f2f2f2;
+  color: #333;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
 
 .publication-video iframe {
     position: absolute;
